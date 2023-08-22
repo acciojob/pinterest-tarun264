@@ -8,13 +8,13 @@ body{
 	align-items:center;
 	
 }
-.hero.image{
-	width:10px;
-	height:10px;
-	 object-fit: cover;
-	position:relative;
+.hero.image img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+	
 }
-.explore{
+.hero .explore{
 	margin:auto;
 	position:relative;
 	padding:50px;
@@ -25,6 +25,6 @@ body{
 	padding:5px;
 	background-color:red;
 	color:white;
-	border-radius:5px
+	border-radius:5px;
 	
 }
