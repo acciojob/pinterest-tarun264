@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body{
+	margin:0;
+}
+.hero{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	
+}
+.hero.image{
+	width:10px;
+	height:10px;
+	 object-fit: cover;
+	position:relative;
+}
+.explore{
+	margin:auto;
+	position:relative;
+	padding:50px;
+	text-align:center
+	
+}
+.button1{
+	padding:5px;
+	background-color:red;
+	color:white;
+	border-radius:5px
+	
+}
